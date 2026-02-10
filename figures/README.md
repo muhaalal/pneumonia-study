@@ -5,4 +5,4 @@ Confusion matrix summarizing model performence on the validation set, showing tr
 Pediatric chest X-ray incorrectly classified as pneumonia. Motion blur, low contrast, and pediatric anatomy likely contributed to the error.
 
 ### Figure 3: False Positive #2
-False positive caused by diffuse gray regions and acquisition artifacts, which resemble pneumonia-like opacities.
+Pediatric chest X-ray falsely classified as pneumonia. Diffuse gray regions resembling pneumonia-like opacities, combined with dataset bias toward adult anatomy, likely influenced the model’s prediction.
