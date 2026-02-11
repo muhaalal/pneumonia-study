@@ -4,7 +4,7 @@
 This project investigates the limitations and failure modes of convolutional neural networks (CNNs) in medical imaging. Rather than focusing solely on diagnostic performance, this study analyzes where and why a CNN misclassifies chest X-rays in pneumonia detection.
 
 ## Motivation
-Deep learning models are increasingly being applied in medical health. However, false positives and false negatives are extremely critical. Understanding model limitations is critical before deployment into the real world. This project explores model limitations rather then raw accuracy.
+Deep learning models are increasingly being applied in medical imaging. However, false positives and false negatives carry critical clinical risk. Understanding model limitations is critical before deployment into the real world. This project explores model limitations rather than raw accuracy.
 
 ## Dataset
 - Public Chest X-Ray Pneumonia Dataset (Kaggle)
