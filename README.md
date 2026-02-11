@@ -33,3 +33,17 @@ Pediatric chest X-ray incorrectly classified as pneumonia. Motion blur, low cont
 
 ### Figure 3: False Positive #2
 Pediatric chest X-ray falsely classified as pneumonia. Diffuse gray regions resembling pneumonia-like opacities, combined with dataset bias toward adult anatomy, likely influenced the model’s prediction.
+
+## Key Observations
+- Pediatric anatomy may differ significantly from adult-dominated datasets.
+- Motion blur and low contrast can mimic pathological features
+- CNNs may rely on texture patterns rather than clinical reasoning.
+- Although the model achieved a validation accuracy of 87.5%, high accuracy alone does not guarantee clinical reliability.
+
+## Limitations
+- Dataset bias and and image quality variation
+- No clinical validation
+- No expert radiologist annotations
+
+## Conclusion
+This study demonstrates that CNNs must be evaluated beyond accuracy. Analyzing failure modes provides insights into potential risks, biases, and limitations prior to real-world deployment.
