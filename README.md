@@ -1,4 +1,4 @@
-# Exploring Failure  of CNNs in Chest X-Ray Pneumonia Classification
+# Exploring Failure Modes of CNNs in Chest X-Ray Pneumonia Classification
 
 ## Overview
 This project investigates the limitations and failure modes of convolutional neural networks (CNNs) in medical imaging. Rather than focusing solely on diagnostic performance, this study analyzes where and why a CNN misclassifies chest X-rays in pneumonia detection.
